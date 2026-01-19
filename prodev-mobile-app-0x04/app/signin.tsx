@@ -1,7 +1,7 @@
 import { Link } from 'expo-router';
 import { Image, ScrollView, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { FACEBOOKLOGO, GOOGLELOGO, HEROLOGOGREEN } from '../constants';
-import { styles } from '../styles/_joinstyle';
+import { styles } from '../styles/_join';
 
 export default function Signin() {
   return (
