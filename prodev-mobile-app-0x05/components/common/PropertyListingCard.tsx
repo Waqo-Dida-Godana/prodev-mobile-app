@@ -1,9 +1,9 @@
-import { PropertyListingProps } from "@/interfaces";
-import { styles } from "@/styles/_propertyCardStyle";
+import { View, Text, StyleSheet, ImageBackground } from "react-native";
 import EvilIcons from "@expo/vector-icons/EvilIcons";
-import FontAwesome from "@expo/vector-icons/FontAwesome";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
-import { ImageBackground, Text, View } from "react-native";
+import { PropertyListingProps } from "@/interfaces";
+import FontAwesome from "@expo/vector-icons/FontAwesome";
+import { styles } from "@/styles/_propertyCardStyle";
 
 const PropertyListingCard: React.FC<PropertyListingProps> = ({
   propertyName,
